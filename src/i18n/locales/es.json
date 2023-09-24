@@ -1,0 +1,25 @@
+{
+    "locale": {
+        "en": "Inglés",
+        "fr": "Francés",
+        "es": "Español",
+        "nl": "Holandés"
+    },
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre nosotros",
+        "catalogue": "Catálogo"
+    },
+    "home": {
+        "header": "Bienvenido a Play Punk"
+    },
+    "about": {
+        "header": "Nosotros somos Play Punk"
+    },
+    "catalogue": {
+        "header": "Aquí estan todos nuestros juegos de mesa"
+    },
+    "press": {
+        "header": "Aquí, puede descargar nuestras imágenes HD para su artículo"
+    }
+}

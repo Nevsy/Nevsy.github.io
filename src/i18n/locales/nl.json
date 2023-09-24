@@ -1,0 +1,25 @@
+{
+    "locale": {
+        "en": "Engels",
+        "fr": "Frans",
+        "es": "Spaans",
+        "nl": "Nederlands"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "Over ons",
+        "catalogue": "Catalogus"
+    },
+    "home": {
+        "header": "Welkom bij Play Punk"
+    },
+    "about": {
+        "header": "Wij zijn Play Punk"
+    },
+    "catalogue": {
+        "header": "Hier zijn al onze bordspellen"
+    },
+    "press": {
+        "header": "Hier kunt u onze HD beelden downloaden voor uw artikel"
+    }
+}

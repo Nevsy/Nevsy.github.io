@@ -1,0 +1,25 @@
+{
+    "locale": {
+        "en": "English",
+        "fr": "French",
+        "es": "Spanish",
+        "nl": "Dutch"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About us",
+        "catalogue": "Catalogue"
+    },
+    "home": {
+        "header": "Welcome to Play Punk!"
+    },
+    "about": {
+        "header": "We are Play Punk"
+    },
+    "catalogue": {
+        "header": "Here are all our boardgames"
+    },
+    "press": {
+        "header": "Here, you can download our HD images for your article"
+    }
+}
