@@ -1,20 +1,23 @@
 {
     "locale": {
-        "en": "Engels",
-        "fr": "Frans",
-        "es": "Spaans",
+        "en": "English",
+        "fr": "Français",
+        "es": "Español",
         "nl": "Nederlands"
     },
     "nav": {
         "home": "Home",
         "about": "Over ons",
-        "catalogue": "Catalogus"
+        "catalogue": "Onze Spellen"
     },
     "home": {
-        "header": "Welkom bij Play Punk"
+        "header1": "Captain flip:",
+        "header2": "uit in 2024!",
+        "button1": "Spelpagina",
+        "button2": "Alle bordspellen"
     },
     "about": {
-        "header": "Wij zijn Play Punk"
+        "header": "Wij zijn PlayPunk"
     },
     "catalogue": {
         "header": "Hier zijn al onze bordspellen"

@@ -1,20 +1,23 @@
 {
     "locale": {
-        "en": "English",
-        "fr": "French",
-        "es": "Spanish",
-        "nl": "Dutch"
+        "en": "🇬🇧",
+        "fr": "🇫🇷",
+        "es": "🇪🇸",
+        "nl": "🇳🇱"
     },
     "nav": {
         "home": "Home",
         "about": "About us",
-        "catalogue": "Catalogue"
+        "catalogue": "Our Games"
     },
     "home": {
-        "header": "Welcome to Play Punk!"
+        "header1": "Captain flip:",
+        "header2": "out in 2024!",
+        "button1": "Gamepage",
+        "button2": "All games"
     },
     "about": {
-        "header": "We are Play Punk"
+        "header": "We are PlayPunk"
     },
     "catalogue": {
         "header": "Here are all our boardgames"

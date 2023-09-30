@@ -1,20 +1,23 @@
 {
     "locale": {
-        "en": "Inglés",
-        "fr": "Francés",
+        "en": "English",
+        "fr": "Français",
         "es": "Español",
-        "nl": "Holandés"
+        "nl": "Nederlands"
     },
     "nav": {
         "home": "Inicio",
         "about": "Sobre nosotros",
-        "catalogue": "Catálogo"
+        "catalogue": "Nuestros Juegos"
     },
     "home": {
-        "header": "Bienvenido a Play Punk"
+        "header1": "Captain flip:",
+        "header2": "fuera en 2024!",
+        "button1": "Página del juego",
+        "button2": "Todos los juegos"
     },
     "about": {
-        "header": "Nosotros somos Play Punk"
+        "header": "Somos PlayPunk"
     },
     "catalogue": {
         "header": "Aquí estan todos nuestros juegos de mesa"

@@ -1,25 +1,28 @@
 {
     "locale": {
-        "en": "Anglais",
+        "en": "English",
         "fr": "Français",
-        "es": "Espagnol",
-        "nl": "Néerlandais"
+        "es": "Español",
+        "nl": "Nederlands"
     },
     "nav": {
         "home": "Accueil",
         "about": "À propos",
-        "catalogue": "Catalogue"
+        "catalogue": "Nos Jeux"
     },
     "home": {
-        "header": "Bienvenu(e) chez Play Punk!"
+        "header1": "Captain flip:",
+        "header2": "sortie en 2024!",
+        "button1": "Page du jeu",
+        "button2": "Tout les jeux"
     },
     "about": {
-        "header": "Nous, nous sommes Play Punk."
+        "header": "Nous sommes PlayPunk."
     },
     "catalogue": {
         "header": "Voici tout nos jeux de société"
     },
     "press": {
-        "header": "Ici, vous pouvez installer nos images HD pour votre article"
+        "header": "Ici, vous pouvez télécharger nos images HD pour votre article"
     }
 }
