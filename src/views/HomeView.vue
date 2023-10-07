@@ -21,7 +21,6 @@
         </RouterLink >
 
         <div class="buttons">
-            <RouterLink :to="Tr.i18nRoute({ name: 'catalogue' })" class="button button2">{{ $t("home.button2") }}</RouterLink>
             <RouterLink :to="Tr.i18nRoute({ name: 'captainflip' })" class="button button1">{{ $t("home.button1") }}</RouterLink>
         </div>
         
@@ -37,12 +36,17 @@
     
     <section id="section2" class="section section2">
         <div class="grid">
-            <div class="card card-wide">1</div>
-            <div class="card">2</div>
-            <div class="card">3</div>
-            <div class="card card-wide">4</div>
-            <div class="card">5</div>
-            <div class="card">6</div>
+
+            <a class="card small" href="https://en.boardgamearena.com/">
+                <span>{{ $t("home.bga") }}</span>
+                <img class="image" src="../assets/images/bga.webp" alt="Board game arena logo">
+            </a>
+
+            <div class="card small">
+                <span>{{ $t("home.kraken") }}</span>
+                <div class="image">*kraken image here*</div>
+            </div>
+
         </div>
     </section>
     
@@ -79,18 +83,26 @@
             }
 
             .titlePart2 {
-                    color: $orange;
+                    color: $ultraLightPlum;
             }
         }
 
         .banner {
-            padding-inline: 10px;
-
+            margin-inline: 10px;
+            max-width: 800px;
+            width: calc(100vw - 20px);
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
             .img {
                 object-fit: cover;
                 border-radius: 10px;
-                height: 35vh;
-                width: 800px;
+                background-repeat: no-repeat;
+
+                aspect-ratio: 16 / 9;
+                max-width: 100%;
             }
         }
 
@@ -101,14 +113,14 @@
             gap: 25px;
 
             .button {
-                height: 40px;
                 display: flex;
                 align-items: center;
 
-                padding-inline: 13px;
+                padding-inline: 16px;
+                padding-block: 10px;
                 cursor: pointer;
 
-                border-radius: 3px;
+                border-radius: 10px;
                 background-color: $plum;
 
                 text-decoration: none;
@@ -123,18 +135,6 @@
 
                     background-color: $white;
                     color: $plum;
-                }
-            }
-
-            .button1 {
-                background-color: $orange;
-
-                &:hover {
-                    -webkit-box-shadow:inset 0px 0px 0px 2px $orange;
-                    -moz-box-shadow:inset 0px 0px 0px 2px $orange;
-                    box-shadow:inset 0px 0px 0px 2px $orange;
-
-                    color: $orange;
                 }
             }
         }
@@ -158,33 +158,60 @@
 
         display: flex;
         justify-content: center;
+        
         .card {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
             background: $lightPlum;
             font-size: 3rem;
             color: $white;
+            text-decoration: none;
+
             box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+            
             height: 250px;
             width: 100%;
             border-radius: 10px;
+
             transition: all 100ms;
             overflow: hidden;
 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+
+            &:hover {
+                box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+                
+                -webkit-box-shadow:inset 0px 0px 0px 2px $ultraLightPlum;
+                -moz-box-shadow:inset 0px 0px 0px 2px $ultraLightPlum;
+                box-shadow:inset 0px 0px 0px 2px $ultraLightPlum;
+            }
         }
-        
-        .card:hover {
-            box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-            
-            -webkit-box-shadow:inset 0px 0px 0px 2px $ultraLightPlum;
-            -moz-box-shadow:inset 0px 0px 0px 2px $ultraLightPlum;
-            box-shadow:inset 0px 0px 0px 2px $ultraLightPlum;
-        }
+
+        .small {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                padding-left: 30px;
+                font-size: 1.4rem;
+
+                .image {
+                    margin-bottom: 10px;
+                    margin-left: 10px;
+                    width: 300px;
+                    aspect-ratio: 20 / 18;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
     }
 
     .grid {
@@ -194,13 +221,6 @@
         width: 800px;
         padding: 10px 10px 50px 10px;
 
-        grid-template-columns: repeat(auto-fit, minmax(1fr, 500px));
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     }
-
-    @media screen and (min-width: 726px) {
-        .card-wide {
-            grid-column: span 2 / auto;
-        }
-    }
-
 </style>

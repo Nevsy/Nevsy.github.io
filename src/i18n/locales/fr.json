@@ -1,20 +1,21 @@
 {
     "locale": {
-        "en": "English",
-        "fr": "Français",
-        "es": "Español",
-        "nl": "Nederlands"
+        "en": "🇬🇧",
+        "fr": "🇫🇷",
+        "es": "🇪🇸",
+        "nl": "🇳🇱"
     },
     "nav": {
         "home": "Accueil",
         "about": "À propos",
-        "catalogue": "Nos Jeux"
+        "catalogue": "Nos Jeux",
+        "press": "Presse",
+        "cs": "SAV"
     },
     "home": {
         "header1": "Captain flip:",
         "header2": "sortie en 2024!",
-        "button1": "Page du jeu",
-        "button2": "Tout les jeux"
+        "button1": "Page du jeu"
     },
     "about": {
         "header": "Nous sommes PlayPunk."
@@ -24,5 +25,10 @@
     },
     "press": {
         "header": "Ici, vous pouvez télécharger nos images HD pour votre article"
+    },
+    "captainFlip" : {
+        "downloadH1" : "Téléchargez les règles ici !",
+        "dlTitle" : "rules.pdf",
+        "dlInfo" : "4,2KB ● 2 min de lecture"
     }
 }

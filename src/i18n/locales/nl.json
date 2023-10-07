@@ -1,20 +1,21 @@
 {
     "locale": {
-        "en": "English",
-        "fr": "Français",
-        "es": "Español",
-        "nl": "Nederlands"
+        "en": "🇬🇧",
+        "fr": "🇫🇷",
+        "es": "🇪🇸",
+        "nl": "🇳🇱"
     },
     "nav": {
         "home": "Home",
         "about": "Over ons",
-        "catalogue": "Onze Spellen"
+        "catalogue": "Onze Spellen",
+        "press": "Pers",
+        "cs": "Klantendienst"
     },
     "home": {
         "header1": "Captain flip:",
         "header2": "uit in 2024!",
-        "button1": "Spelpagina",
-        "button2": "Alle bordspellen"
+        "button1": "Spelpagina"
     },
     "about": {
         "header": "Wij zijn PlayPunk"
@@ -24,5 +25,10 @@
     },
     "press": {
         "header": "Hier kunt u onze HD beelden downloaden voor uw artikel"
+    },
+    "captainFlip": {
+        "downloadH1": "Download de regels hier!",
+        "dlTitle": "regels.pdf",
+        "dlInfo": "4.2KB ● 2 min lezen"
     }
 }

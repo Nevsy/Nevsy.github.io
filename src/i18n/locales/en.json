@@ -8,13 +8,16 @@
     "nav": {
         "home": "Home",
         "about": "About us",
-        "catalogue": "Our Games"
+        "catalogue": "Our Games",
+        "press": "Press",
+        "cs": "Customer Service"
     },
     "home": {
         "header1": "Captain flip:",
         "header2": "out in 2024!",
-        "button1": "Gamepage",
-        "button2": "All games"
+        "button1": "See the game",
+        "bga": "Find us on board game arena!",
+        "kraken": "In the nozzle of the kraken available soon!"
     },
     "about": {
         "header": "We are PlayPunk"
@@ -24,5 +27,10 @@
     },
     "press": {
         "header": "Here, you can download our HD images for your article"
+    },
+    "captainFlip": {
+        "downloadH1": "Download the rules here!",
+        "dlTitle": "rules.pdf",
+        "dlInfo": "4.2KB ● 2 min read"
     }
 }

@@ -1,20 +1,21 @@
 {
     "locale": {
-        "en": "English",
-        "fr": "Français",
-        "es": "Español",
-        "nl": "Nederlands"
+        "en": "🇬🇧",
+        "fr": "🇫🇷",
+        "es": "🇪🇸",
+        "nl": "🇳🇱"
     },
     "nav": {
         "home": "Inicio",
         "about": "Sobre nosotros",
-        "catalogue": "Nuestros Juegos"
+        "catalogue": "Nuestros Juegos",
+        "press": "Prensa",
+        "cs": "Servicio postventa"
     },
     "home": {
         "header1": "Captain flip:",
         "header2": "fuera en 2024!",
-        "button1": "Página del juego",
-        "button2": "Todos los juegos"
+        "button1": "Página del juego"
     },
     "about": {
         "header": "Somos PlayPunk"
@@ -24,5 +25,10 @@
     },
     "press": {
         "header": "Aquí, puede descargar nuestras imágenes HD para su artículo"
+    },
+    "captainFlip": {
+        "downloadH1": "¡Descarga las reglas aquí!",
+        "dlTitle": "reglas.pdf",
+        "dlInfo": "4.2KB ● se lee en 2 minutos"
     }
 }

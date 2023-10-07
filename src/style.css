@@ -11,4 +11,7 @@ body, *, *::after, *::before{
 body {
   background-color: #f7f5ee;
 }
-html{scroll-behavior:smooth}
+html{
+  scroll-behavior:smooth;
+  overflow: visible;
+}
