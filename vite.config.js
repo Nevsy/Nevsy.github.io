@@ -15,5 +15,7 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  base: '/Nevsy.github.io/',
+  plugins: [vue()]
 })
