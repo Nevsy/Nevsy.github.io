@@ -4,6 +4,8 @@ import Home from "../views/HomeView.vue"
 import Catalogue from "../views/CatalogueView.vue"
 import About from "../views/AboutView.vue"
 import Press from "../views/PressView.vue"
+import CaptainFlip from "../views/CaptainFlipView.vue"
+import Cs from "../views/CsView.vue"
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.VITE_BASE_URL),
@@ -23,6 +25,11 @@ const router = createRouter({
                     component: Catalogue
                 },
                 {
+                    path: "captainflip",
+                    name: "captainflip",
+                    component: CaptainFlip
+                },
+                {
                     path: "about",
                     name: "about",
                     component: About
@@ -31,6 +38,11 @@ const router = createRouter({
                     path: "press",
                     name: "press",
                     component: Press
+                },
+                {
+                    path: "cs",
+                    name: "cs",
+                    component: Cs
                 }
             ],
         },

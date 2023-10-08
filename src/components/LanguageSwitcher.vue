@@ -26,14 +26,29 @@
 </script>
 
 <template>
-    <select @change="switchLanguage">
-        <option
-            v-for="sLocale in supportedLocales"
-            :key="`locale-${sLocale}`"
-            :value="sLocale"
-            :selected="locale === sLocale"
-        >
-        {{ t("locale." + sLocale) }}
-        </option>
-    </select>
+    <div class="custom-select">
+        <select @change="switchLanguage">
+            <option
+                v-for="sLocale in supportedLocales"
+                :key="`locale-${sLocale}`"
+                :value="sLocale"
+                :selected="locale === sLocale"
+            >
+            {{ t("locale." + sLocale) }}
+            </option>
+        </select>
+
+    </div>
 </template>
+
+<style scoped lang="scss">
+    
+    select {
+        padding-left: 3px;
+        font-size: 1.3rem;
+
+        option {
+            padding-left: 3px;
+        }
+    }
+</style>

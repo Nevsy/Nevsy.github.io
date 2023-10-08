@@ -1,6 +1,17 @@
-body{
+@import "/src/assets/styles/scss/_variables.scss";
+
+body, *, *::after, *::before{
   margin: 0;
   padding: 0;
-  font-family: Inter;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: Roboto Slab, sans-serif;
   font-weight: 500;
+}
+body {
+  background-color: #f7f5ee;
+}
+html{
+  scroll-behavior:smooth;
+  overflow: visible;
 }
