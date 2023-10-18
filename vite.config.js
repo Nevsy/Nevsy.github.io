@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
     VueI18nPlugin({
-      include: resolve(dirname(fileURLToPath(import.meta.url)), './src/i18n/locales/**'), // provide a path to the folder where you'll store translation data (see below)
+      include: resolve(dirname(fileURLToPath(import.meta.url)), './src/i18n/locales/**'), // provide a path to the folder where you store translation data
     })
   ],
   resolve: {
@@ -16,6 +16,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: '/Nevsy.github.io/',
-  plugins: [vue()]
+  //base: '/Nevsy.github.io/',
 })
